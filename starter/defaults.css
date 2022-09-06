@@ -5,4 +5,5 @@
     --black-color: #000;
     --whtie-color:#fff;
     linear-gradient:(to right, #f46b45,#FF6347);
+    --Blackborder: 3px solid black;
 }

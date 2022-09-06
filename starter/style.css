@@ -5,6 +5,10 @@
     padding: 0%;
     box-sizing: border-box;
 }
+img {
+    width: 100%;
+    height: 100%;
+}
 body{
     font-family: 'Inter', sans-serif;
 }
@@ -16,6 +20,7 @@ body{
     height: 85vh;
     /* border: 3px solid var(--black-color); */
     display: flex;
+  
 }
 .firstsection-leftdiv{
     padding-top: 20px;
@@ -58,8 +63,61 @@ span {
 /* ==== First section ends here ==== */
 
 /* ==== second section start here ==== */
+.secondsection {
+    /* height: 300px; */
+    /* border: var(--Blackborder); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+.secondsection-leftdiv {
+    height: 400px;
+    width: 310px;
+    background: var(--gray-color);
+    padding: 40px 20px;
+    text-align: center;
+}
+.secondsection-leftdiv p {
+    text-align: left;
+    margin: 20px 0;
+
+}
+
+.secondsection-rightdiv {
+    height: 460px;
+    width: 340px;
+    background: var(--main-color);
+    margin-left: 20px;
+}
 /* ==== second section ends here ==== */
 /* ==== third section start here ==== */
+.Thirdsection {
+/* border: var(--Blackborder); */
+/* height: 300px; */
+padding: 30px 0;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.Thirdsection-leftdiv {
+    height: 460px;
+    width: 340px;
+    background: var(--gray-color);
+   
+}
+.Thirdsection-rightdiv{
+    padding: 40px 20px;
+    height: 460px;
+    width: 340px;
+    background: var(--main-color);
+
+}
+.Thirdsection-rightdiv p{
+   margin: 20px 0;
+   text-align: left;
+}
 /* ==== third section ends here ==== */
 /* ==== Footer section start here ==== */
 /* ==== Footer section ends here ==== */
