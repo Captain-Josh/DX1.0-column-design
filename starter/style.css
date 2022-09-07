@@ -100,7 +100,6 @@ padding: 30px 0;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
-background: var(--gray-color);
 }
 .Thirdsection-leftdiv {
     height: 460px;
