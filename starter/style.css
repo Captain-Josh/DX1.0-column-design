@@ -120,4 +120,22 @@ flex-wrap: wrap;
 }
 /* ==== third section ends here ==== */
 /* ==== Footer section start here ==== */
+footer{
+    color: var(--whtie-color);
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+}
+.footericon-container{
+    /* height: 100px; */
+    width: 200px;
+    /* border: var( --Blackborder); */
+    text-align: center;
+}
+.footericon{
+    font-size: 25px;
+    margin: 0 5px;
+}
 /* ==== Footer section ends here ==== */
