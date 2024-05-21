@@ -1,0 +1,28 @@
+/* common fix start here */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* common fix stop here */
+
+/* First section starts here */
+.Firstsection {
+    height: 430px;
+    border: 3px solid black;
+    display: flex;
+}
+.Firstsection-leftdiv{
+    height: 100%;
+    width: 50%;
+    background: var(--gray-color);
+
+}
+.Firstsection-rightdiv{
+    height: 100%;
+    width: 50%;
+    background:var(--color-lg), url(./images/image1.jpg);
+    background-size: cover;
+   background-position: bottom left;
+   
+}
+/* First section ends here */
