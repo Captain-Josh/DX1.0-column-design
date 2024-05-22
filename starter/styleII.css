@@ -2,6 +2,10 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
 }
 /* common fix stop here */
 
@@ -15,13 +19,46 @@
     height: 100%;
     width: 50%;
     background: var(--gray-color);
+    padding: 20px;
+}
+
+.logotext{
+    /* color: var(--main-color); */
+    margin-bottom: 20px;
+}
+.Heading {
+margin-bottom: 20px;
 
 }
+span{ 
+    color: var(--main-color);
+}
+
+.Line{
+    height: 15px;
+    width: 224px ;
+    background: var(--main-color);
+}
+.Firstsection-leftdiv p{
+    margin-bottom: 25px;
+}
+
 .Firstsection-rightdiv{
     height: 100%;
     width: 50%;
     background:var(--color-lg), url(./images/image1.jpg);
     background-size: cover;
    background-position: bottom left;
+}
+.link-holder{
+    /* border: var(--Blackborder); */
+    color: var(--whtie-color);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.link-holder h4 {
+    /* border:var(--Blackborder); */
 }
 /* First section ends here */
