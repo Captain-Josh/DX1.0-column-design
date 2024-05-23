@@ -1,0 +1,38 @@
+@media screen and (max-width:600px){
+ 
+    /* first section starts here  */
+    .Firstsection{
+        height: 520px;
+    }
+    .Firstsection-leftdiv{
+        width: 60%;
+    }
+
+    .Heading{
+        font-size: 25px;
+    }
+    .Firstsection-leftdiv p{
+        font-size: 16px;
+    }
+    .Line {
+        width: 180px;
+    }
+
+    .Firstsection-rightdiv{
+        width: 40%;
+    }
+
+    .link-holder{
+        flex-direction: column;
+        padding-left: 40px;
+    }
+
+    .link-holder h4 {
+        margin-bottom: 20px;
+    }
+
+
+    
+    /* first section starts here  */
+    
+}
